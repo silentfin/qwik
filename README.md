@@ -10,6 +10,18 @@ A simple Python script to generate customizable QR codes.
 - Save QR codes as PNG images
 - Auto-open the generated QR code in your browser
 
+## Demo
+![Animated Demo](assets/gif/demo.gif) 
+
+## Examples
+Generated using:
+```bash
+python3 qwik.py https://github.com/silentfin --color red --size 10 --border 1 --open
+```
+| Default (Black) | Red            | Green          | Blue           |
+|-----------------|----------------|----------------|----------------|
+| ![Default QR](assets/img/default.png) | ![Red QR](assets/img/red.png) | ![Green QR](assets/img/green.png) | ![Blue QR](assets/img/blue.png) |
+| No color flag | `--color red` | `--color green` | `--color blue` |
 
 ## Installation  
 *Requires Python 3.6 or later.*
