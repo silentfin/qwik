@@ -51,11 +51,11 @@ python3 qwik.py https://github.com/silentfin --color red --size 10 --border 1 --
 
 - Linux/macOS:  
     ```bash    
-    python3 qwik.py "https://example.com" --color red --size 20 --border 2 --output my_qr.png --open
+    python3 qwik.py "https://example.com" --color red --size 20 --border 2 --output myFolder --open
     ```  
 - Windows:  
     ```bash
-    python qwik.py "https://example.com" --color red --size 20 --border 2 --output my_qr.png --open
+    python qwik.py "https://example.com" --color red --size 20 --border 2 --output myFolder --open
     ```
 ## Options
 | Argument   | Description                            | Default |
